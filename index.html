@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script>
+        var x = prompt("Введите x");
+		var l=1;
+		var res=0;
+		var count = prompt("Введите количество итераций");
+		for (i=0;i<count;i++){
+			res+=1/(l*Math.pow(x,l))
+            l+=2;
+        }
+        res*=2
+	alert("Ответ: " + res);
+	</script>
+</head>
+<body>
+</body>
+</html>
